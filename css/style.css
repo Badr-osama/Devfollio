@@ -1,0 +1,397 @@
+body{
+    /* height: 500em; */
+    background: #F5F5F5;
+}
+/* Start section navbar */
+.navbar{
+    background-color: black !important;
+} 
+.toggle-mob-menu
+{
+    color: white;
+    font-size:28px
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+}
+.active{
+    border-bottom: 2px solid;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid;
+    transition: all 0.5s;
+}
+.navbar-nav .dropdown-menu{
+    min-width: 200px;
+}
+li .dropdown-item:hover{
+    background-color: unset;
+    color: rgb(85, 85, 233);
+}
+li  span{
+    margin-right: 10px;
+    margin-top: 8px;
+}
+/* End section navbar */
+
+/* Start section background */
+.hero-bg{
+    background-image: url(../image/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.hero-bg .content{
+    background: rgba(0,0,0,0.5);
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.content h1{
+    font-size: 70px;
+}
+.content p{
+    font-size: 50px;
+}
+/* End section background */
+
+/* Start section personal */
+.personal span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.progress{
+    height: 10px;
+}
+.rabout h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: 3px underline #0078FF;
+}
+.rabout p{
+    font-size: 20px;
+    color: #929290f2;
+}
+/* End section personal */
+
+/* Start section service */
+.service{
+    margin-top: 100px;
+}
+.service .container{
+    margin-top: 80px;
+}
+.service h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.service p{
+    text-decoration: 3px underline #0078FF;
+}
+.service .badr{
+    border-radius: 15px;
+}
+.service .badr p{
+    text-decoration: none;
+}
+.service .badr .icon{
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 8px solid #0078FF;
+}
+.service .badr:hover .icon{
+    background: #0078FF;
+    border: 8px solid #CDE1F8;
+    transition: all 0.8s;
+}
+.service .badr:hover .icon .fa-solid{
+    color: white;
+    transition: all 0.8s;
+}
+.service .badr:hover .icon .fas{
+    color: white;
+    transition: all 0.8s;
+}
+.service .fa-solid{
+    font-size: 30px;
+}
+.service .fas{
+    font-size: 30px;
+}
+/* End section service */
+
+/* Start section rgba */
+.rgba{
+    background: url(../image/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.rgba1{
+    background: rgb(0 147 255 / 67%);
+}
+.rgba .container{
+    padding: 100px 0 100px 0;
+}
+.rgba .bassam .icon1{
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 8px solid #CDE1F8;
+}
+.bassam .icon1 .fa-solid{
+    color: white;
+    font-size: 25px;
+}
+.bassam .icon1 .fas{
+    color: white;
+    font-size: 25px;
+}
+.bassam h2{
+    color: white;
+    font-size: 30px;
+}
+.bassam p{
+    color: white;
+    font-size: 15px;
+}
+/* End section rgba */
+
+/* Start section portfolio */
+.portfolio{
+    margin-top: 100px;
+}
+.portfolio .container{
+    margin-top: 80px;
+}
+.portfolio h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.portfolio p{
+    text-decoration: 3px underline #0078FF;
+}
+.portfolio .content1 .photo{
+    overflow: hidden;
+}
+.portfolio .content1:hover img{
+    transform: scale(1.2,1.2);
+    transition: all 0.8s ease-in-out;
+}
+.portfolio .bottom h3{
+    font-size: 20px;
+}
+.portfolio .bottom p{
+    text-decoration: none;
+    font-size: 12px;
+}
+.portfolio .bottom p span{
+    color: #0078FF;
+}
+.portfolio .bottom .icon2{
+    border: 3px solid #0078FF;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.portfolio .bottom .fa-solid{
+    color: #0078FF;
+    font-size: 25px;
+}
+/* End section portfolio */
+
+/* Start section slider*/
+.slider{
+    background: url(../image/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 600px;
+}
+.slider1{
+    height: 600px;
+    background: rgb(0 147 255 / 67%);
+}
+.carousel{
+   margin-top: 200px;
+}
+.slider .carousel-indicators .dot{
+    width: 10px;
+    height: 10px;
+    text-indent: 10px;
+    border-radius: 50%;
+ }
+
+.slider .carousel-item img{
+    width: 150px;
+}
+.slider .carousel-item{
+    border: none !important
+}
+.slider .carousel-indicators{
+    bottom:-60px !important
+}
+
+.slider .carousel-caption{
+    position: initial !important;
+}
+/* End section slider */
+
+/* Start section blog */
+.blog{
+    margin-top: 100px;
+}
+.blog .container{
+    margin-top: 80px;
+}
+.blog h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.blog p{
+    text-decoration: 3px underline #0078FF;
+}
+.blog .bottom1 h3{
+    font-size: 12px;
+    background: #0078FF;
+    width: fit-content;
+    padding: 8px 14px;
+    position: relative;
+    top: -15px;
+}
+.blog .bottom1 a{
+    text-decoration: none;
+}
+.blog .bottom1 a h2{
+    font-size: 20px;
+    color: #3b454f;
+}
+.blog .bottom1 a:hover h2{
+    color: #0078FF;
+    transition: all 0.7s ease-in-out;
+}
+.blog .bottom1 p{
+    text-decoration: none;
+}
+.blog .bottom2 img{
+    width: 40px;
+}
+.blog .bottom2 p{
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.blog .bottom2 .badr:hover p{
+    color: #0078FF;
+    transition: all 0.5s ease-in-out;
+}
+.blog .bottom2 .fas{
+    margin-right: 5px;
+    color: #3b454f;
+}
+/* End section blog */
+
+/* Start section contact */
+.contact{
+    background: url(../image/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.contact1{
+    padding: 100px 20px;
+    background: rgb(0 147 255 / 67%);
+}
+.contact .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.contact .container h2{
+    font-size: 30px;
+    text-decoration: 3px underline #0078FF;
+}
+.contact .container .form-control{
+    height: 45px;
+}
+.contact .container .btn{
+   width: 150px;
+   height: 40px;
+   margin-top: 20px;
+   display: block;
+   margin: 10px auto
+}
+.contact .right p{
+    color: #a9a8a8;
+    font-size: 20px;
+}
+.contact .right1 p{
+    font-size: 15px;
+    color: black;
+}
+.contact .right1 span{
+    color: #0078FF;
+    margin-right: 10px;
+}
+.contact .right2 a{
+    border: 3px solid #0078FF;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+.contact .right2 a:hover{
+    background: #0078FF;
+    border: 3px solid #CDE1F8;
+    transition: all 0.5s ease-in-out;
+}
+.contact .right2 a .fab{
+    color: black;
+}
+.contact .right2 a:hover .fab{
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+/* End section contact */
+
+/* Start section end */
+.end{
+    background: #0062D3;
+}
+.end .end1{
+    display: block;
+    margin: 20px auto;
+}
+.end .end1 p .fas{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.end .end1 .end2{
+    display: block;
+    margin: auto;
+    background: #0776f7;
+    width: fit-content;
+}
+
